@@ -1,0 +1,176 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Luke Roberts: Contact</title>
+    <script src="freecontactformvalidation.js"></script>
+    <script>
+    required.add('Full_Name','NOT_EMPTY','Full Name');
+    required.add('Email_Address','EMAIL','Email Address');
+    required.add('Your_Message','NOT_EMPTY','Your Message');
+    required.add('AntiSpam','NOT_EMPTY','Anti-Spam Question');
+    </script>
+    <link rel="stylesheet" type="text/css" href="freecontactform.css">
+   
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="C:\Users\luke\Desktop\website\favicon-16.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html"><img border="0" alt="logo" src="logo2.png"  height="40"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+
+		</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="C:/Users/luke/Desktop/website/index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="C:/Users/luke/Desktop/website/portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="C:/Users/luke/Desktop/website/contact.html">Contact</a>
+          </li>
+                  
+            </div>
+          
+        </ul>
+       
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Contact Me</h1>
+          <p>If you would like to contact me please use the form below. 
+            <P><i class="material-icons">email</i>  Robertsluke398@yahoo.com</P>
+            <p> <i class="material-icons">phone</i>  +447153 033570</p>
+		   
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+              <form name="freecontactform" method="post" action="#" onsubmit="if(validate.check(this))">
+                  <table class="freecontactform" style="background-image: url(images/free-form-background-grey.jpg);background-repeat:repeat-x">
+                      <tbody><tr>
+                          <td colspan="2">
+                              <div class="freecontactformheader">Contact Me</div>
+                              <div class="freecontactformmessage">Fields marked with <span class="required_star"> * </span> are mandatory.</div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td valign="top">
+                              <label for="Full_Name" class="required">Full Name<span class="required_star"> * </span></label>
+                          </td>
+                          <td valign="top">
+                              <input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:230px">
+                          </td>
+                      </tr>
+                      <tr>
+                          <td valign="top">
+                              <label for="Email_Address" class="required">Email Address<span class="required_star"> * </span></label>
+                          </td>
+                          <td valign="top">
+                              <input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:230px">
+                          </td>
+                      </tr>
+                      <tr>
+                          <td valign="top">
+                              <label for="Telephone_Number" class="not-required">Telephone Number</label>
+                          </td>
+                          <td valign="top">
+                              <input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:230px">
+                          </td>
+                      </tr>
+                      <tr>
+                          <td valign="top">
+                              <label for="Your_Message" class="required">Your Message<span class="required_star"> * </span></label>
+                          </td>
+                          <td valign="top">
+                              <textarea style="width:230px;height:160px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td colspan="2" style="text-align:center">
+                              <div class="antispammessage">
+                                  To help prevent automated spam, please answer this question
+                                  <br><br>
+                                  <div class="antispamquestion">
+                                      <span class="required_star"> * </span> Using only numbers, what is 10 plus 15? &nbsp;
+                                      <input type="text" name="AntiSpam" id="AntiSpam" maxlength="100" style="width:30px">
+                                  </div>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td colspan="2" style="text-align:center">
+                              <br><br>
+                              <input type="submit" value=" Submit Form " style="width:200px;height:40px">
+                              <br><br>
+                              <div align="center" style="font-size:0.9em">Form provided by Free Contact Form</div>
+                          </td>
+                      </tr>
+                  </tbody></table>
+              </form>
+          </div>
+          <div class="col-md-4">
+      <p></p>
+          </div>
+
+          <div class="col-md-4">
+
+              <a href="https://www.linkedin.com/in/luke-roberts-6b4b85136"><img src="linkedin.png" alt="linkedin"style="width:230px";></a>
+     <p>  <a href="https://github.com/lukejroberts1997"><img src="git.svg" alt="git"style="width:230px; padding-top:50px"></a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+        <p>Designed By Luke Roberts 2019 <a href="https://github.com/lukejroberts1997"><img src="git.svg" style="float: right; width:30px"></a>
+        <a href="https://www.linkedin.com/in/luke-roberts-6b4b85136"><img src="linkedin.png" style="float: right; width:30px; margin-right:5px;"></a></p>
+        
+      </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+	<script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
